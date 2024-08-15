@@ -42,6 +42,6 @@ const user = {
 // console.log(addTwo(34,6));
 
 //returning an object in arrow function
-const Obj = (Name)=> ({username: Name})
-console.log(Obj("Bucky Barnes"));
+// const Obj = (Name)=> ({username: Name})
+// console.log(Obj("Bucky Barnes"));
 
