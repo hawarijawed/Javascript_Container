@@ -57,27 +57,51 @@ const languages = ["C","C++","Python","Java","JavaScript"];
 //     console.log(items);
 // })
 
-//array of object
-const myCoding = [
-    {
-        "Language":"C",
-        "Extension":".c"
-    },
-    {
-        "Language":"C++",
-        "Extension":".cpp"
-    },
-    {
-        "Language":"Python",
-        "Extension":".py"
-    },
-    {
-        "Language":"Java",
-        "Extension":".java"
-    }
-]
+// //array of object
+// const myCoding = [
+//     {
+//         "Language":"C",
+//         "Extension":".c"
+//     },
+//     {
+//         "Language":"C++",
+//         "Extension":".cpp"
+//     },
+//     {
+//         "Language":"Python",
+//         "Extension":".py"
+//     },
+//     {
+//         "Language":"Java",
+//         "Extension":".java"
+//     }
+// ]
 
-myCoding.forEach( (item)=>{
-    console.log(item.Language);
-    
-})
+// myCoding.forEach( (item)=>{
+//     console.log(item.Language);
+// })
+
+
+// const coding = ["js","ruby","java","python","cpp"];
+// const values = coding.forEach((item) =>{
+//     console.log(item);
+//     //return (item); //returns undefined
+// })
+// console.log(values);
+
+const nums = [1,2,3,4,5,6,7,8,9,10];
+// const val = nums.filter((num)=>{
+//     return num>5;
+// })
+// console.log(val);
+
+//filtering using forEach method
+// const lst = [];
+// nums.forEach((item)=>{
+//     if(item>5){
+//         lst.push(item);
+//     }
+// })
+// console.log(lst);
+
+const books = []
